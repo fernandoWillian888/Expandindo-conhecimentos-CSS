@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+div#container-flex {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+div#1, div#2, div#3, div#4, div#5, div#6, div#7, div#8 {
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+}
+div#1 {
+    background-color: aquamarine;
+}
+div#2 {
+    background-color: blue;
+}
+div#3 {
+    background-color: brown;
+}
+div#4 {
+    background-color: blueviolet;
+}
+div#5 {
+    background-color: cadetblue;
+}
+div#6 {
+    background-color: chocolate;
+}
+div#7 {
+    background-color: crimson;
+}
+div#8 {
+    background-color: darkorange;
+}
