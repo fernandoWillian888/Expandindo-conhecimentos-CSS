@@ -1,0 +1,46 @@
+@charset "UTF-8"; 
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1200px){
+    div#um, div#dois, div#tres, div#quatro, div#cinco, div#seis, div#sete, div#oito {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        position: absolute;
+    }
+    div#um {
+        background-color: aquamarine;
+        left: 230px;
+    }
+    div#dois {
+        background-color: blue;
+        left: 440px;
+    }
+    div#tres {
+        background-color: brown;
+        left: 650px;
+    }
+    div#quatro {
+        background-color: blueviolet;
+        left: 860px;
+    }
+    div#cinco {
+        background-color: cadetblue;
+        left: 230px;
+    }
+    div#seis {
+        background-color: chocolate;
+        left: 440px;
+    }
+    div#sete {
+        background-color: crimson;
+        left: 650px;
+    }
+    div#oito {
+        background-color: darkorange;
+        left: 860px;    
+    }
+}
