@@ -1,12 +1,12 @@
 @charset "UTF-8";
 body {
-    width: 97vw;
-    height: 97vh;
+    width: 80vw;
+    height: 80vh;
 }
 div#container-flex {
     display: flex;
-    width: 97vw;
-    height: 97vh;
+    width: 80vw;
+    height: 80vh;
     justify-content: space-evenly;
     align-content: space-around;
     position: relative;
@@ -16,6 +16,8 @@ div#um, div#dois, div#tres, div#quatro, div#cinco, div#seis, div#sete, div#oito 
     height: 150px;
     margin: 8px;
     position: absolute;
+    margin: auto;
+    flex-wrap: wrap;
 }
 div#um {
     background-color: aquamarine;
